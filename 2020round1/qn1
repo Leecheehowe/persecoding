@@ -1,1 +1,5 @@
-
+starfish = int(input('starfish'))
+spider = int(input('spider'))
+scorpion = int(input('scorpion'))
+output = 5*starfish + 8*spider + 12*scorpion
+print (output)
