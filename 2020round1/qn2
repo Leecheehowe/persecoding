@@ -1,0 +1,5 @@
+word = input('5 letter word:')
+vowels = set('aeiou')
+for char in word:
+  if char in vowels:
+    print (char)
