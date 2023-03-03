@@ -1,0 +1,7 @@
+food1 = input()
+food2 = input()
+food3 = input()
+food4 = input()
+output = (f'{food1}, {food2}, {food3}, {food4}')
+print (output)
+print (len(output)*'-')
