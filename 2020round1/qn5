@@ -2,6 +2,6 @@ poem = 'wibble wobble wibble wobble jelly on the plate'
 word = input()
 number = int(input())
 poemsplit = poem.split()
-index = poem.find(word)
+index = poemsplit.find(word)
 for i in range(index+1, index+1+number):
   print(poemsplit[i], end=' ')
