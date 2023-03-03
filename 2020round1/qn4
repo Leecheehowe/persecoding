@@ -1,0 +1,13 @@
+jen = int(input())
+sid = int(input())
+length = int(input())
+jena = length*jen
+sida = 0.5*length*sid
+if jena>sida:
+  print('jen')
+  diff = (jena-sida)
+  print (diff)
+elif sida>jena: 
+    print('sid')
+    diff = (sida-jena)
+    print(diff)
